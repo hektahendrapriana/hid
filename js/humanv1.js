@@ -534,9 +534,9 @@ function loadvisionsection() {
 }
 
 function loadprojectsection() {
-  menuwhite();
   $('.swiper-container.pswiper').css('width', '100%');
   if ($("#project").hasClass('active')) {
+    menuwhite();
     $('.movablemenu').css('opacity', '1');
     $("#pdots").addClass("active");
     $(".projectsection").addClass("active");   
@@ -560,6 +560,7 @@ function loadprojectsection() {
 
 function loadcontactsection() {
   if ($("#contact").hasClass('active')) {
+    menuwhite();
     $('.movablemenu').css('opacity', '1');
     $("#cdots").addClass("active");
     $(".contactsection").addClass("active");       
