@@ -474,12 +474,12 @@ function loadwhatsection() {
     menuwhite();
     $("#wdots").addClass("active"); 
     var wsswiper2 = document.querySelector('#wswiper').swiper;
-    wsswiper2.mousewheel.disable();
+    // wsswiper2.mousewheel.disable();
     wss1timeline();
     wss1keyframes.restart();
     setTimeout(function () {
       $(".wt1").removeClass('disableswipe');
-      wsswiper2.mousewheel.enable();
+      // wsswiper2.mousewheel.enable();
     }, wss1timeout);
   } 
   else {
@@ -507,12 +507,12 @@ function loadvisionsection() {
     menuwhite();
     $("#vdots").addClass("active"); 
     var vsswiper2 = document.querySelector('#vswiper').swiper;
-    vsswiper2.mousewheel.disable();
+    // vsswiper2.mousewheel.disable();
     vss1timeline();
     vss1keyframes.restart();
     setTimeout(function () {
       $(".vt1").removeClass('disableswipe');
-      vsswiper2.mousewheel.enable();
+      // vsswiper2.mousewheel.enable();
     }, vss1timeout);     
   } 
   else {
