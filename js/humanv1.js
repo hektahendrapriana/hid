@@ -529,10 +529,12 @@ function loadvisionsection() {
     }, 500);
     menuwhite();
     $('.movablemenu').css('opacity', '1');
+    $('.logo').css('opacity', '1');
   }
 }
 
 function loadprojectsection() {
+  menuwhite();
   $('.swiper-container.pswiper').css('width', '100%');
   if ($("#project").hasClass('active')) {
     $('.movablemenu').css('opacity', '1');
