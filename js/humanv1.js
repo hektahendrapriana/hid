@@ -493,7 +493,7 @@ function loadwhatsection() {
     wss3keyframes.pause();
     wss4keyframes.pause();
     setTimeout(function () {
-      bgtimelinereset();
+      wstimelinereset();
     }, 500);
     menuwhite();
   }
@@ -534,6 +534,7 @@ function loadvisionsection() {
 }
 
 function loadprojectsection() {
+  menuwhite();
   $('.swiper-container.pswiper').css('width', '100%');
   if ($("#project").hasClass('active')) {
     menuwhite();
@@ -559,6 +560,7 @@ function loadprojectsection() {
 }
 
 function loadcontactsection() {
+  menuwhite();
   if ($("#contact").hasClass('active')) {
     menuwhite();
     $('.movablemenu').css('opacity', '1');
@@ -672,17 +674,17 @@ function wssectionremoveactiveclass() {
   $(".ws2").removeClass('active');
   $(".ws3").removeClass('active');
   $(".ws4").removeClass('active');
-  $(".ws1").addClass('disableswipe');
-  $(".ws2").addClass('disableswipe');
-  $(".ws3").addClass('disableswipe');
+  // $(".ws1").addClass('disableswipe');
+  // $(".ws2").addClass('disableswipe');
+  // $(".ws3").addClass('disableswipe');
 }
 
 
 function vssectionremoveactiveclass() {
   $(".vs1").removeClass('active');
   $(".vs2").removeClass('active');
-  $(".vs1").addClass('disableswipe');
-  $(".vs2").addClass('disableswipe');
+  // $(".vs1").addClass('disableswipe');
+  // $(".vs2").addClass('disableswipe');
 }
 
 gsap.registerPlugin(CustomEase);
@@ -990,7 +992,7 @@ function wssectionanaimations() {
   var wsslide4position = wsslide4.getBoundingClientRect();
   var wss4p = Math.round(wsslide4position.left-wcp.right);
   if (wss2p>-10) {
-    menublack();
+    menuwhite();
   }
 
   if (wss2p<=-10) {
@@ -1115,7 +1117,7 @@ function vssectionanaimations() {
   var vss2p = Math.round(vsslide2position.left-vcp.right);
 
   if (vss2p>-10) {
-    menublack();
+    menuwhite();
   }
 
   if (vss2p<=-10) {
@@ -1128,7 +1130,7 @@ function vssectionanaimations() {
       setTimeout(function () {
         $(".vt2").removeClass('disableswipe');
         visionswiper3.mousewheel.enable();
-      },vss2timeout);
+      },vss1timeout);
       
       $(".vs2").addClass('active');
       menuwhite(); 
