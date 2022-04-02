@@ -3342,7 +3342,11 @@
   .h1 {
     font-size: 48px;
   }
-
+  .p.center.ws1-copy {
+    margin-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .logo {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3472,6 +3476,11 @@
   .wss1text .h3 {
     font-size: 24px;
     line-height: 29px;
+  }
+  .p.center.ws1-copy {
+    margin-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .layout1 {
     display: inline-block !important;
@@ -3694,6 +3703,11 @@
 }
 
 @media screen and (max-width: 479px) {
+  .p.center.ws1-copy {
+    margin-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .h1 {
     font-size: 32px;
     line-height: 40px;
