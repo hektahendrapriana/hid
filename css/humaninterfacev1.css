@@ -3012,6 +3012,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -3030,6 +3071,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
@@ -3047,6 +3129,47 @@ input:-internal-autofill-selected  {
       height: 60%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
@@ -3084,6 +3207,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- iPhone X ----------- */
@@ -3101,6 +3265,47 @@ input:-internal-autofill-selected  {
       height: 58%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
@@ -3121,6 +3326,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
@@ -3138,6 +3384,47 @@ input:-internal-autofill-selected  {
       height: 47%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
@@ -3157,6 +3444,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- HTC One ----------- */
@@ -3174,6 +3502,47 @@ input:-internal-autofill-selected  {
       height: 47%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
@@ -3193,6 +3562,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- Google Pixel XL ----------- */
@@ -3210,6 +3620,47 @@ input:-internal-autofill-selected  {
       height: 47%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
@@ -3229,6 +3680,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- Nexus 5 ----------- */
@@ -3246,6 +3738,47 @@ input:-internal-autofill-selected  {
       height: 47%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
@@ -3265,6 +3798,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- Windows Phone ----------- */
@@ -3282,6 +3856,47 @@ input:-internal-autofill-selected  {
       padding-top: 48%;
       top: calc(100% - 90vh);
     }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
+    }
 }
 
 /* ----------- Non-Retina Screens ----------- */
@@ -3296,6 +3911,47 @@ input:-internal-autofill-selected  {
       height: 47%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
@@ -3312,6 +3968,47 @@ input:-internal-autofill-selected  {
       height: 47%;
       padding-top: 48%;
       top: calc(100% - 90vh);
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto
+    }
+    .swiper-container.cswiper .swiper-button-prev, .swiper-container.cswiper .swiper-container-rtl .swiper-button-next {
+      left: 10px;
+      right: auto
+    }
+    .swiper-container.cswiper .box-contact {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .contactsection.active .swiper-container.cswiper {
+      width: 90vw;
+    }
+    .swiper-container.cswiper .swiper-button-next, .swiper-container.cswiper .swiper-button-prev {
+      padding: 15px;
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .swiper-button-next:after, .swiper-container.cswiper .swiper-container-rtl .swiper-button-prev:after {
+      width: 14px;
+      height: 14px;
+    }
+    .swiper-container.cswiper .validation-error {
+      right: -10px;
+    }
+    .swiper-container.cswiper .icon-checked {
+        padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .swiper-container.cswiper .icon-checked:after {
+      width: 14px;
+      height: 14px;
+      left: 9px;
+      top: 9px;
     }
 }
 
