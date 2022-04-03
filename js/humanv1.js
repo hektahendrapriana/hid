@@ -401,6 +401,23 @@ function resetswiperslides() {
   contactswiper.slideTo(0, 300, false);
 }
 
+function checkEmail() {
+  var email = document.getElementById('email').value;
+  if( email.length > 0 )
+  {
+    var filter = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if (email.toLowerCase().match(filter)) {
+        $('.validation-error').removeClass('hide').addClass('show');
+    }
+    else{
+      $('.validation-error').removeClass('show').addClass('hide');
+    }
+  }
+  else{
+    $('.validation-error').removeClass('show').addClass('hide');
+  }
+}
+
 function activatesection() {
   loadhomesection();
   loadbgsection();
@@ -558,21 +575,34 @@ function loadprojectsection() {
     projectswiper3.update();
   }
 }
-
+var ckeyframes = gsap.timeline({ delay: 0 });
 function loadcontactsection() {
   menuwhite();
   if ($("#contact").hasClass('active')) {
     menuwhite();
     $('.movablemenu').css('opacity', '1');
     $("#cdots").addClass("active");
-    $(".contactsection").addClass("active");       
+    $(".contactsection").addClass("active");
+    setTimeout( function(){
+      var ckeyframes2 = gsap.timeline({ delay: 0 });
+      ckeyframes2
+      .to(".swiper-container.cswiper .box-contact", { duration: 1, opacity: 1, ease: "none" })
+      .to(".swiper-container.cswiper .swiper-button-next", { duration: 1, opacity: 1, ease: "none" })
+      .to(".swiper-container.cswiper .swiper-button-prev", { duration: 1, opacity: 1, ease: "none" });
+      var contactswiper3 = document.querySelector('#cswiper').swiper;
+      contactswiper3.update();
+    }, 3000);   
   } 
   else {
     $("#cdots").removeClass("active");
     $(".contactsection").removeClass("active");
   }
 }
-
+$('#submit').on('click', function(e){
+  $('.email-form').removeClass('show').addClass('hide');
+  $('.email-form-success').removeClass('hide').addClass('show');
+  ckeyframes.to(".email-form-success", { duration: 1, opacity: 1, ease: "none" });
+});
 // $('.tabweb').on('click', function(e){
 //   $(".project").each(function () {
 //     this.classList.remove('hide');

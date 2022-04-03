@@ -541,10 +541,13 @@
     <div id="cswiper" class="swiper-container cswiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="cs1">
-            <h4 class="h4 contact">Describe your project</h4>
+          <div class="box-contact cs1">
+            <p class="p center">1 / 3</p>
+            <h4 class="h4 contact">Describe Your Project</h4>
             <div class="form-block w-form">
-              <form id="email-form" name="email-form" data-name="Email Form"><textarea placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s" maxlength="5000" id="Description" name="Description" data-name="Description" class="textarea w-input"></textarea></form>
+              <form id="email-form" name="email-form" data-name="Email Form">
+                <textarea placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" maxlength="5000" id="Description" rows="3" name="Description" data-name="Description" class="textarea w-input"></textarea>
+              </form>
               <div class="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
@@ -555,10 +558,27 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="cs1">
+          <div class="box-contact cs1">
+            <p class="p center">2 / 3</p>
             <h4 class="h4 contact">Device Type</h4>
             <div class="form-block w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" class="form"><label class="w-radio"><input type="radio" data-name="Radio" id="radio" name="radio" value="Radio" class="w-form-formradioinput w-radio-input"><span class="p w-form-label">App</span></label><label class="w-radio"><input type="radio" data-name="Radio 3" id="radio-3" name="radio" value="Radio" class="w-form-formradioinput w-radio-input"><span class="p w-form-label">Web</span></label><label class="w-radio"><input type="radio" data-name="Radio 2" id="radio-2" name="radio" value="Radio" class="w-form-formradioinput w-radio-input"><span class="p w-form-label">Web/App</span></label></form>
+              <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                <label class="w-radio">
+                  <input type="radio" data-name="Radio" id="radio" name="radio" value="App" class="w-form-formradioinput w-radio-input">
+                  <span class="p w-form-checkmark"></span>
+                  <span class="p w-form-label">App</span>
+                </label>
+                <label class="w-radio">
+                  <input type="radio" data-name="Radio 3" id="radio-3" name="radio" value="Web" class="w-form-formradioinput w-radio-input">
+                  <span class="p w-form-checkmark"></span>
+                  <span class="p w-form-label">Web</span>
+                </label>
+                <label class="w-radio">
+                  <input type="radio" data-name="Radio 2" id="radio-2" name="radio" value="Web/App" class="w-form-formradioinput w-radio-input">
+                  <span class="p w-form-checkmark"></span>
+                  <span class="p w-form-label">Web/App</span>
+                </label>
+              </form>
               <div class="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
@@ -569,25 +589,32 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="cs1">
-            <p class="p center">3 / 4</p>
-            <h4 class="h4 contact">Email</h4>
-            <div class="form-block w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" class="form"><input type="text" class="text-field w-input" maxlength="256" name="field" data-name="Field" id="field" required=""></form>
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
+          <div class="box-contact cs1">
+            <div class="email-form">
+              <p class="p center">3 / 3</p>
+              <h4 class="h4 contact">Your email</h4>
+              <div class="form-block w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" class="form" autocomplete="off">
+                  <input type="text" class="text-field w-input" maxlength="256" name="email" data-name="email" id="email" required="" onchange="checkEmail()" onblur="checkEmail()" onkeypress="checkEmail()" onkeydown="checkEmail()">
+                  <div class="validation-error hide">
+                    <button type="button" class="icon-checked" name="submit" id="submit"></button>
+                  </div>
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="cs1">
-            <p class="p center">4 / 4</p>
-            <h4 class="h4 contact">Your information has been sent</h4>
-            <p class="p center">We’ll reach you in next 24h</p>
+            <div class="email-form-success hide">
+              <p class="p center margin-bottom20">
+                <i class="icon-checked"></i>
+              </p>
+              <h4 class="h4 contact">Your information has been sent</h4>
+              <p class="p center">We’ll reach you in next 24h</p>
+            </div>
           </div>
         </div>
       </div>
